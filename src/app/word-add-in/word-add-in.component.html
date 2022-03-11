@@ -1,0 +1,26 @@
+<button class="ms-Button" (click)="insertText('customer_address_line_1')" >customer_address_line_1</button><br/><br/>
+<button class="ms-Button" (click)="insertText('customer_address_line_2')" >customer_address_line_2</button><br/><br/>
+<button class="ms-Button" (click)="insertText('customer_address_line_3')" >customer_address_line_3</button><br/><br/>
+<button class="ms-Button" (click)="insertText('appliance_name')" >appliance_name</button><br/><br/>
+<button class="ms-Button" (click)="uploadFile()">upload_file</button><br/><br/>
+
+<div class="docs-DialogExample-lgHeader">
+    <div #dialogue class="ms-Dialog ms-Dialog--lgHeader">
+      <!-- <div class="ms-Dialog-title">All emails together</div> -->
+      <div class="ms-Dialog-content">
+        <p class="ms-Dialog-subText">Do you want to repeat this tag for all rows ?</p>
+      </div>
+      <div class="ms-Dialog-actions"> 
+        <button class="ms-Button ms-Dialog-action ms-Button--small ms-Button--primary" (click)="repeatTableContent()">
+          <span class="ms-Button-label">Yes</span> 
+        </button>
+        <button class="ms-Button ms-Button--small  ms-Dialog-action" (click)="dontRepeatTableContent()">
+          <span class="ms-Button-label">No</span> 
+        </button>
+      </div>
+    </div>
+</div>
+
+<div class="ms-OverlayExample">
+    <div #overlay class="ms-Overlay ms-Overlay"></div>
+</div>
